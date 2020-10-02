@@ -1,0 +1,12 @@
+{
+  "name": "https://github.com/adapt-security/adapt-authoring-coursetheme.git",
+  "version": "0.0.1",
+  "description": "Module for managing course theming",
+  "homepage": "https://github.com/adaptlearning/coursetheme",
+  "license": "GPL-3.0",
+  "repository": "github:adaptlearning/coursetheme",
+  "main": "index.js",
+  "dependencies": {
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api.git"
+  }
+}
