@@ -1,1 +1,1 @@
-module.exports = require('./lib/courseThemeModule');
+module.exports = require('./lib/CourseThemeModule');
