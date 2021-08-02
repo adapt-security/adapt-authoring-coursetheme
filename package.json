@@ -8,6 +8,6 @@
   "main": "index.js",
   "dependencies": {
     "adapt-authoring-api": "adapt-security/adapt-authoring-api",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.21"
   }
 }
