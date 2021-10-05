@@ -4,8 +4,8 @@
   "description": "Module for managing course theming",
   "homepage": "https://github.com/adaptlearning/coursetheme",
   "license": "GPL-3.0",
-  "repository": "adaptlearning/coursetheme",
   "main": "index.js",
+  "repository": "adaptlearning/coursetheme",
   "dependencies": {
     "adapt-authoring-api": "adapt-security/adapt-authoring-api",
     "lodash": "^4.17.21"
