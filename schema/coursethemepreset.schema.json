@@ -5,12 +5,15 @@
   "type": "object",
   "properties": {
     "displayName":{
+      "description": "User-friendly name for the settings",
       "type": "string"
     },
     "parentTheme":{
+      "description": "Name of the theme these settings should be applied to",
       "type": "string"
     },
     "properties": {
+      "description": "The theme settings",
       "type": "object"
     }
   },
