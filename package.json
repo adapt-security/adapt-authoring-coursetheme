@@ -4,6 +4,7 @@
   "description": "Module for managing course theming",
   "homepage": "https://github.com/adaptlearning/coursetheme",
   "license": "GPL-3.0",
+  "type": "module",
   "main": "index.js",
   "repository": "adaptlearning/coursetheme",
   "dependencies": {

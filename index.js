@@ -1,1 +1,1 @@
-module.exports = require('./lib/CourseThemeModule');
+export { default } from './lib/CourseThemeModule.js';
