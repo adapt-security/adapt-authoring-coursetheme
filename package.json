@@ -8,7 +8,7 @@
   "main": "index.js",
   "repository": "adaptlearning/coursetheme",
   "dependencies": {
-    "adapt-authoring-api": "adapt-security/adapt-authoring-api",
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
     "lodash": "^4.17.21"
   }
 }
