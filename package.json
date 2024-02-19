@@ -8,8 +8,13 @@
   "main": "index.js",
   "repository": "github:adapt-security/adapt-authoring-coursetheme",
   "dependencies": {
-    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
     "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "adapt-authoring-adaptframework": "github:adapt-security/adapt-authoring-adaptframework",
+    "adapt-authoring-api": "github:adapt-security/adapt-authoring-api",
+    "adapt-authoring-assets": "github:adapt-security/adapt-authoring-assets",
+    "adapt-authoring-content": "github:adapt-security/adapt-authoring-content"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
