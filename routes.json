@@ -1,0 +1,30 @@
+{
+  "root": "coursethemepresets",
+  "permissionsScope": "content",
+  "routes": [
+    {
+      "route": "/:_id/apply/:courseId",
+      "validate": false,
+      "handlers": { "post": "applyHandler" },
+      "permissions": { "post": ["write:${scope}"] },
+      "meta": {
+        "post": {
+          "summary": "Apply theme preset to a course",
+          "responses": { "204": {} }
+        }
+      }
+    },
+    {
+      "route": "/:_id/remove/:courseId",
+      "validate": false,
+      "handlers": { "post": "removeHandler" },
+      "permissions": { "post": ["write:${scope}"] },
+      "meta": {
+        "post": {
+          "summary": "Remove theme preset from a course",
+          "responses": { "204": {} }
+        }
+      }
+    }
+  ]
+}
