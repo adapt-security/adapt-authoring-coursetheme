@@ -1,4 +1,5 @@
 name: Lint
+on: push
 jobs:
   default:
     runs-on: ubuntu-latest
