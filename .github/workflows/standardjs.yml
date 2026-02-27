@@ -1,5 +1,4 @@
-name: Standard.js formatting check
-on: push
+name: Lint
 jobs:
   default:
     runs-on: ubuntu-latest
