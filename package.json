@@ -9,7 +9,8 @@
   "repository": "github:adapt-security/adapt-authoring-coursetheme",
   "dependencies": {
     "adapt-authoring-api": "^3.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "semver": "^7.6.0"
   },
   "peerDependencies": {
     "adapt-authoring-adaptframework": "^2.0.0",
