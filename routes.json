@@ -3,6 +3,19 @@
   "permissionsScope": "content",
   "routes": [
     {
+      "route": "/theme-schema/:themeName",
+      "validate": false,
+      "modifying": false,
+      "handlers": { "get": "themeSchemaHandler" },
+      "permissions": { "get": ["read:${scope}"] },
+      "meta": {
+        "get": {
+          "summary": "Retrieve a theme plugin's variable/editor schema",
+          "responses": { "200": {} }
+        }
+      }
+    },
+    {
       "route": "/:_id/apply/:courseId",
       "validate": false,
       "handlers": { "post": "applyHandler" },

@@ -1,0 +1,10 @@
+{
+  "COURSETHEMEPRESET_NAME_EXISTS": {
+    "data": {
+      "displayName": "The preset name",
+      "parentTheme": "The theme the preset belongs to"
+    },
+    "description": "A preset with this name already exists for this theme",
+    "statusCode": 400
+  }
+}
